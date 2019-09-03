@@ -10,7 +10,52 @@ h1,h2, h3, h4, .navbar-default .navbar-nav li a, .navbar-default .navbar-nav>li>
   font-weight: 400;
 }
 
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:focus {
+/* nav section */
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus {
   background-color: transparent;
+}
+
+.navbar-default{
+  background: #ffffff;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-default .navbar-brand {
+  color: #ffa400;
+  font-size: 40px;
+  line-height: 35px;
+}
+
+.navbar-default .navbar-nav li a {
+  line-height: 35px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover {
+  color: #555;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+  border: none;
+  padding-top: 10px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background: #ffa400;
+  border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus { background-color: transparent }
+
+/* about section */
+.padding-bottom-10
+{
+  padding-bottom: 10px;
+}
+.img-bordered
+{
+  border: 2px solid #f2f2f2;
+  padding: 14px;
 }
