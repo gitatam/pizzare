@@ -59,3 +59,30 @@ h1,h2, h3, h4, .navbar-default .navbar-nav li a, .navbar-default .navbar-nav>li>
   border: 2px solid #f2f2f2;
   padding: 14px;
 }
+
+/* gallery section */
+
+.main-light-gray-bg {
+  background: #f9f9f9;
+}
+
+.gallery-wrapper {
+  background: #ffffff;
+  margin-top: 20px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.gallery-wrapper:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.gallery-des {
+  padding: 0 20px 14px 20px;
+}
+
+.gallery-img {
+  margin: 0 auto;
+}
