@@ -61,7 +61,6 @@ h1,h2, h3, h4, .navbar-default .navbar-nav li a, .navbar-default .navbar-nav>li>
 }
 
 /* gallery section */
-
 .main-light-gray-bg {
   background: #f9f9f9;
 }
@@ -85,4 +84,33 @@ h1,h2, h3, h4, .navbar-default .navbar-nav li a, .navbar-default .navbar-nav>li>
 
 .gallery-img {
   margin: 0 auto;
+}
+
+/* media queries to handle responsiveness */
+@media (min-width: 768px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 900px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+}
+
+@media only screen and (max-width:360px) {
+  .navbar-default .navbar-brand { padding-top: 6px; }
+  .img-about { margin-top: 40px; }
+}
+
+@media only screen and (max-width: 768px) {
+ .navbar-default .navbar-brand {
+  font-size: 35px;
+  padding-top: 10px;
+}
 }
