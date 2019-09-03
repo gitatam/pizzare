@@ -114,3 +114,18 @@ h1,h2, h3, h4, .navbar-default .navbar-nav li a, .navbar-default .navbar-nav>li>
   padding-top: 10px;
 }
 }
+
+/* order section */
+
+
+/* footer section */
+footer
+{
+  margin-top: 20px;
+  background: #202020;
+  border-bottom: 10px solid #ffffff;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
